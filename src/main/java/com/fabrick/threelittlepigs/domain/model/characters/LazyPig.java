@@ -1,6 +1,6 @@
 package com.fabrick.threelittlepigs.domain.model.characters;
 
-import com.fabrick.threelittlepigs.domain.enumerations.LazinessLevel;
+import com.fabrick.threelittlepigs.domain.enums.LazinessLevel;
 import com.fabrick.threelittlepigs.domain.model.objects.garments.Garment;
 import com.fabrick.threelittlepigs.domain.model.objects.garments.Gloves;
 import com.fabrick.threelittlepigs.domain.model.objects.garments.Hat;

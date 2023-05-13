@@ -1,4 +1,4 @@
-package com.fabrick.threelittlepigs.domain.enumerations;
+package com.fabrick.threelittlepigs.domain.enums;
 
 public enum LazinessLevel {
 
