@@ -11,7 +11,5 @@ import java.util.List;
 @EqualsAndHashCode(callSuper = false)
 public abstract class LittlePig extends Character {
 
-    abstract List<Garment> getClothes();
-
     abstract MusicalInstrument getMusicalInstrument();
 }
