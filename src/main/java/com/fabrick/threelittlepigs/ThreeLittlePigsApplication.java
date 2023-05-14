@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ThreeLittlePigsApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ThreeLittlePigsApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(ThreeLittlePigsApplication.class, args);
+  }
 }
