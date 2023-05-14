@@ -17,20 +17,20 @@ public class House {
     private boolean blownDown;
 
     public House(LittlePig dweller) {
-        dwellers.add(dweller);
+        this.dwellers.add(dweller);
         this.material = dweller.getLazinessLevel().getBuildingMaterial();
     }
 
     public void welcomeGuest(LittlePig littlePig) throws HouseIsFullException {
-        if (dwellers.size() < 3) {
-            dwellers.add(littlePig);
+        if (this.dwellers.size() < 3) {
+            this.dwellers.add(littlePig);
         } else {
             throw new HouseIsFullException();
         }
     }
 
     public void handleWind() throws HouseResistsException {
-        if (!material.isWindResistant()) {
+        if (!this.material.isWindResistant()) {
             this.blownDown = true;
         } else {
             throw new HouseResistsException();
