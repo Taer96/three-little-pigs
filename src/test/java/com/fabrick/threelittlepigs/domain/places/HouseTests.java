@@ -13,13 +13,6 @@ import org.junit.jupiter.api.Test;
 public class HouseTests {
 
   @Test
-  void given_newHouse_when_adding2ndPig_then_pigIsAdded() {
-    House h = HouseFactory.buildHouse(new HardWorkingPig());
-    Assertions.assertDoesNotThrow(() -> h.welcomeGuest(new LazyPig()));
-    Assertions.assertEquals(2, h.getDwellers().size());
-  }
-
-  @Test
   void given_newHouse_when_adding3rdPig_then_pigIsAdded() {
     House h = HouseFactory.buildHouse(new HardWorkingPig());
     Assertions.assertDoesNotThrow(() -> h.welcomeGuest(new LazyPig()));
